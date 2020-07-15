@@ -17,7 +17,7 @@ function HeaderComp(props) {
                             <Nav.Item>Home</Nav.Item>
                             <Nav.Item>Projects</Nav.Item>
                             <Nav.Item>Blog</Nav.Item>
-                            <Nav.Item>Github</Nav.Item>
+                            <Nav.Item><a className="nav-link" href="https://github.com/AsisASotelo">Github</a></Nav.Item>
 
                         </Nav>
 
