@@ -1,19 +1,19 @@
 import React from 'react';
 import {Col,Row,Container} from 'react-bootstrap';
 
-function HomeComp(props) {
+function TitleComp({title,subtitle}) {
     return (
         <>
             <Container fluid className="landing">
                 
                 <Row>
                     <Col className="title">
-                        <p>Asis Sotelo</p>
+                        <p>{title}</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <p>Data,Science, <span>&#38;</span> Tech</p>
+                        <p>{subtitle}</p>
                     </Col>
                 </Row>
             
@@ -24,4 +24,4 @@ function HomeComp(props) {
     );
 }
 
-export default HomeComp;
+export default TitleComp;

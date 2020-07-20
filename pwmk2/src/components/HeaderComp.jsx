@@ -8,7 +8,8 @@ function HeaderComp(props) {
         <>
             <Navbar 
                 bg = "light" 
-                expand ="lg">
+                expand ="lg"
+                variang ="light">
 
                     <Navbar.Brand href="/home">AS</Navbar.Brand>
                     <Navbar.Toggle />
@@ -17,7 +18,7 @@ function HeaderComp(props) {
                             <Nav.Item>Home</Nav.Item>
                             <Nav.Item>Projects</Nav.Item>
                             <Nav.Item>Blog</Nav.Item>
-                            <Nav.Item><a className="nav-link" href="https://github.com/AsisASotelo">Github</a></Nav.Item>
+                            <Nav.Item><a href="https://github.com/AsisASotelo">Github</a></Nav.Item>
 
                         </Nav>
 

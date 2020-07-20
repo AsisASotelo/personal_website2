@@ -26,6 +26,15 @@ code {
 
 }
 
+.navbar.bg-light{
+  border: none;
+}`
+
+.card-row{
+  margin-left:300px;
+  margin-right:300px;
+}
+
 .landing {
   display:flex;
   min-height: 100vh;
