@@ -1,36 +1,44 @@
 import React from 'react';
-import {Card, CardDeck} from 'react-bootstrap';
+import {Card, CardDeck, Container,Row,Col} from 'react-bootstrap';
 
 function CardComp(props) {
     return (
         <div>
+            <Container>
+                <Row>
+                    <Col sm ={4}>
+                            <Card>
+                                <Card.Title>
+                                    First Card
+                                </Card.Title>
+                                
+                                
 
-            <CardDeck className="card-row">
-                <Card>
-                    
-                    <Card.Body>
-                        <Card.Header>
-                        Firebase App
-                        </Card.Header>
-                        <Card.Img variant="top" src="/assets/images/firebase.png"/>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-                        </Card.Text>
+                            </Card>
+                    </Col>
+                    <Col sm={4}>
+                        <Card>
+                        <Card.Title>
+                                    First Card
+                                </Card.Title>
 
-                    </Card.Body>
-                    <Card.Footer>
-                    
-                    </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col sm = {4}>
+                        <Card>
+                        <Card.Title>
+                                    First Card
+                                </Card.Title>
 
-                </Card>
-                <Card>
-                    
-                </Card>
-                <Card>
-                    
-                </Card>
-            </CardDeck>
+                        </Card>
+                    </Col>
+                </Row>
+
+
+            </Container>
+
+            
+                
             
         </div>
     );
