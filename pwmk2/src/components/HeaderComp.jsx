@@ -8,8 +8,8 @@ function HeaderComp(props) {
         <>
             <Navbar 
                 bg = "light" 
-                expand ="lg"
-                variang ="light">
+                expand ="sm"
+                variant ="light">
 
                     <Navbar.Brand href="/home">AS</Navbar.Brand>
                     <Navbar.Toggle />

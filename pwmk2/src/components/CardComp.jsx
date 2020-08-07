@@ -1,36 +1,23 @@
 import React from 'react';
 import {Card, CardDeck, Container,Row,Col} from 'react-bootstrap';
+import SingleCard from './SingleCard';
 
 function CardComp(props) {
     return (
         <div>
             <Container>
                 <Row>
-                    <Col sm ={4}>
-                            <Card>
-                                <Card.Title>
-                                    First Card
-                                </Card.Title>
-                                
-                                
-
-                            </Card>
+                    <Col md ={4}>
+                        <SingleCard/>
+                            
                     </Col>
-                    <Col sm={4}>
-                        <Card>
-                        <Card.Title>
-                                    First Card
-                                </Card.Title>
-
-                        </Card>
+                    <Col md={4}>
+                        <SingleCard/>
+                        
                     </Col>
-                    <Col sm = {4}>
-                        <Card>
-                        <Card.Title>
-                                    First Card
-                                </Card.Title>
-
-                        </Card>
+                    <Col md = {4}>
+                        <SingleCard/>
+                        
                     </Col>
                 </Row>
 
