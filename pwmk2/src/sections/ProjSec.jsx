@@ -10,6 +10,7 @@ function ProjSec(props) {
         <HeaderComp/>
         <TitleComp title="Projects" subtitle="A collection of my work..."/>
         <CardComp/>
+        <CardComp/>
         <FooterComp/>
         
        </>
