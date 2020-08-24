@@ -4,11 +4,12 @@ import IconLabel from './IconLabel';
 
 
 function SingleCard(props){
+    
     return(
 
        <Card>
            <Card.Header>
-               <emp>Firebase App</emp>
+               <emp>{props.title}</emp>
            </Card.Header>
            <Card.Img src = "assets/images/firebase.png"/>
            <Card.Body>

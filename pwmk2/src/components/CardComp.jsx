@@ -7,18 +7,16 @@ function CardComp(props) {
         <div>
             <Container>
                 <Row>
-                    <Col md ={4}>
-                        <SingleCard/>
-                            
-                    </Col>
-                    <Col md={4}>
-                        <SingleCard/>
-                        
-                    </Col>
-                    <Col md = {4}>
-                        <SingleCard/>
-                        
-                    </Col>
+                    {props.items.map(project=>(
+
+                        <Col key ={project._id} md ={4}>
+                            <SingleCard
+                                title={project.title}
+                                />
+                                
+                        </Col>
+
+                    ))}
                 </Row>
 
 
