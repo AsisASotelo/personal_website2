@@ -66,6 +66,12 @@ code {
   font-size:30px;
 }
 
+.proj-page {
+  display:flex;
+  justify-content:center;
+  margin-top: 20px;
+}
+
 @font-face {
   font-family: 'Tiempos Headline Regular';
   font-style: normal;
