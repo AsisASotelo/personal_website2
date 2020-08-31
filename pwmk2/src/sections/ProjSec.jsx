@@ -6,13 +6,24 @@ import HeaderComp from '../components/HeaderComp';
 import CardComp from '../components/CardComp';
 import {PROJECTS} from '../services/projects'
 import Pagination  from '../common/pagination';
+import {paginate} from '../utils/pagination'
 
 function ProjSec(props) {
 
-    const [itemsCount,setItemsCount] = useState(0);
-    const [projects,setProjects] = useState(PROJECTS);
+    
+
+    const [count,setCount] = useState(PROJECTS.length);
+    const [allProjects,setAllProjects] = useState(PROJECTS);
     const [currentPage,setCurrentPage] = useState(1);
     const [pageSize, setPageSize] = useState(3)
+
+
+
+    const handlePageChange = (page)=>{
+        setCurrentPage(page)
+    }
+
+    const projects = paginate(allProjects,currentPage,pageSize)
 
     return (
        <>
@@ -21,9 +32,10 @@ function ProjSec(props) {
         <CardComp 
             items={projects}/>
         <Pagination
-            itemsCount ={pageSize.length} 
+            itemsCount ={count} 
             pageSize={pageSize}
-            currentPage = {currentPage} 
+            currentPage = {currentPage}
+            onPageChange={handlePageChange} 
             />
         <FooterComp/>
         
