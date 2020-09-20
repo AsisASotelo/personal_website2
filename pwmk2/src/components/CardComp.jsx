@@ -12,6 +12,8 @@ function CardComp(props) {
                         <Col key ={project._id} md ={4}>
                             <SingleCard
                                 title={project.title}
+                                body={project.body}
+                                image = {project.card_image}
                                 />
                                 
                         </Col>

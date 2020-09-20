@@ -11,9 +11,9 @@ function SingleCard(props){
            <Card.Header>
                <emp>{props.title}</emp>
            </Card.Header>
-           <Card.Img src = "assets/images/firebase.png"/>
+           <Card.Img height = {250} width={250} src = {props.image}/>
            <Card.Body>
-               Web application created for INF 551. Front-end uses React, ReactStrap, Utilize the inverted custom index from lalala
+               {props.body}
            </Card.Body>
            <IconLabel></IconLabel>
        </Card>
