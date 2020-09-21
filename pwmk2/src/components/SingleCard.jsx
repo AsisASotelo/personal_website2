@@ -15,7 +15,8 @@ function SingleCard(props){
            <Card.Body>
                {props.body}
            </Card.Body>
-           <IconLabel></IconLabel>
+           <IconLabel
+            icon = {foursquareIcon}></IconLabel>
        </Card>
 
 

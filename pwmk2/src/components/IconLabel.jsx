@@ -14,7 +14,7 @@ function IconLabel(props){
     return(
 
    
-        <Button className = "mt-2" color ="success"> <Icon icon={foursquareIcon} /> Foursquare </Button>     
+        <Button className = "mt-2" color ="success"> <Icon icon={props.icon} />  </Button>     
 
     )
 }
