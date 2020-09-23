@@ -4,20 +4,20 @@ import IconLabel from './IconLabel';
 import foursquareIcon from '@iconify/icons-fa-brands/foursquare';
 
 
-function SingleCard(props){
+function SingleCard({title,body,image,icons}){
     
     return(
 
        <Card>
            <Card.Header>
-               <emp>{props.title}</emp>
+               <emp>{title}</emp>
            </Card.Header>
-           <Card.Img height = {250} width={250} src = {props.image}/>
+           <Card.Img height = {250} width={250} src = {image}/>
            <Card.Body>
-               {props.body}
+               {body}
            </Card.Body>
            <IconLabel
-            icon = {foursquareIcon}></IconLabel>
+            icon = {icons}></IconLabel>
        </Card>
 
 

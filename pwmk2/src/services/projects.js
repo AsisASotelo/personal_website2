@@ -1,9 +1,11 @@
+
+import foursquareIcon from '@iconify/icons-fa-brands/foursquare';
 export const PROJECTS = [{
         _id: 0,
         title: "Firebase App",
         card_image: "/assets/images/firebase.png",
         body: "Web application created for INF 551. Front-end was created utilizing React, Reacstrap. Backend development was set up with Firebase. API calls were made with a simple listener set using Firebase API. Utilizes inverted index of custom CSV file to return primary key of tuple location.",
-        icons: foursquare
+        icons: foursquareIcon
 
 
     },
