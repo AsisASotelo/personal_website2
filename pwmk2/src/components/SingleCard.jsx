@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Card, Container, Row, Col} from 'react-bootstrap';
 import IconLabel from './IconLabel';
+import foursquareIcon from '@iconify/icons-fa-brands/foursquare';
 
 
 function SingleCard(props){
