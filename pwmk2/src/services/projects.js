@@ -35,5 +35,13 @@ export const PROJECTS = [{
         body: "Tokenization of the file and directory names of a Hadoop cluster Name Node deployed on Amazon Linux EC2 instances. I then wrote a python script to take an xml file and then produce another xml file known as an inverted index. Listing the file/directory names inode numbers."
 
 
+    },
+
+    {
+        _id: 4,
+        title: "Fourier Analysis",
+        card_image:"/assets/images/fourier.png",
+        body:"Scientific paper on the removal of a noisy signal with Fourier Analysis. Most of the work was done within Jupyter Notebook and used 2 years of sample stock market data. The FFT Algorithm was used to decrease the noise and isolate the true signal frequency."
+
     }
 ]
