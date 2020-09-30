@@ -43,5 +43,12 @@ export const PROJECTS = [{
         card_image:"/assets/images/fourier.png",
         body:"Scientific paper on the removal of a noisy signal with Fourier Analysis. Most of the work was done within Jupyter Notebook and used 2 years of sample stock market data. The FFT Algorithm was used to decrease the noise and isolate the true signal frequency."
 
+    },
+
+    {
+        _id: 5,
+        title:"",
+        card_image:"/assets/images/",
+        body:""
     }
 ]
