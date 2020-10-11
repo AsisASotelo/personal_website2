@@ -47,8 +47,8 @@ export const PROJECTS = [{
 
     {
         _id: 5,
-        title:"",
+        title:"Personal Website",
         card_image:"/assets/images/",
-        body:""
+        body:"The Website you are on! A way to express my creativity through a minimilistic design. A way to practice web development."
     }
 ]
